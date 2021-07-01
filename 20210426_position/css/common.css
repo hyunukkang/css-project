@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+:root {
+    /* color */
+    --primary-bg: #141414;
+    --primary-main: #E50914;
+    --primary-gray: #8A8A8A;
+    /* font */
+    --large-font: 30px;
+    --medium-font: 24px;
+    --small-font: 18px;
+}
+video {
+    max-width: 100%;
+    vertical-align: top;
+}
+img {
+    max-width: 100%;
+    vertical-align: top;
+}

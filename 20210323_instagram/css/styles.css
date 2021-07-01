@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import "reset.css";
+
+#app {
+    width: 500px;
+    margin: 5% auto;
+    border: 1px solid #999;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.inner {
+    padding: 0 10px;
+}
+/* header */
+header {
+    height:50px;
+    border-bottom: 1px solid #999;
+}
+.gnb {
+    text-align: center;
+}
+.gnb li> * {
+    line-height: 50px;
+}
+.gnb li {
+    display: inline-block;
+}
+.gnb .logo {
+    width: 80%;
+}
+.gnb .logo img {
+    width:100px;
+    height: 29px;
+}
+/* story */
+.story {
+    height: 150px;
+    border-bottom: 1px solid #999;
+}
+.storyList li {
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.storyList img {
+    width: 100px;
+    border-radius: 50%;
+    line-height: 150px;
+}
+.storyList li:nth-child(2) img {
+    border: 1px solid rgba(225,129,10,0.696);
+    padding: 2px;
+}
+.storyList li:nth-child(3) img {
+    border: 1px solid rgba(225,129,10,0.696);
+    padding: 2px;
+}
+.storyList li p {
+    font-size: 13px;
+    color: #6e6e6e;
+}
+/* profile */
+.profile {
+    height: 70px;
+    border-bottom: 1px solid #999;
+}
+.profileBox {
+    padding: 10px;
+}
+.profileBox> * {
+    display: inline-block;
+}
+.profileBox img {
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.profileBox .profileText {
+    width: 79%;
+    line-height: 25px;
+}        
+.profileBox .profileText p:nth-child(1) {
+    font-size: 13px;
+}
+.profileBox .profileText p:nth-child(2) {
+    font-size: 11px;
+}
+.profileBox i {
+    vertical-align: top;
+    line-height: 50px;
+}
+/* feed */
+.feedPhoto img {
+    width: 100%;
+    vertical-align: top;
+}
+/* share */
+.share {
+    height: 80px;
+    border-bottom: 1px solid #999;
+}
+.shareBox {
+    padding: 7px;
+    line-height: 30px;
+}
+.shareBox .iconList li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.shareBox .iconList p {
+    font-size: 16px;
+}
+.shareBox p span {
+    font-weight: bold
+}
+
+/* footer */
+footer {
+    height: 50px;
+}
+footer .iconList li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    line-height: 62px;
+}
